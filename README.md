@@ -46,12 +46,6 @@ LOGGING_LEVEL=DEBUG
 The setup_logging function in the configuration.py module is responsible for setting up the logging configuration. It supports dynamic log filenames and uses the TimedRotatingFileHandler to create new log files every midnight and keep the last 30 days of log files.
 
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contributing
-I mostly use this for personal use, and am a super amateur programmer.  Contributions are welcome, but I'm pretty sure you have better things to do with your time!
-
 ## Publishing to PyPI
 This is just a reminder for me on how to publish the changes.
 
@@ -67,3 +61,9 @@ Upload the new version to PyPI using `twine`.
 ```bash
 twine upload dist/*
 ```
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributing
+I mostly use this for personal use, and am a super amateur programmer.  Contributions are welcome, but I'm pretty sure you have better things to do with your time!
