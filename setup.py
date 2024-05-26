@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='logging_configd',
+    name='logging_config',
     version='0.1.0',
     packages=find_packages(),
     description='A simple logging configuration module',
