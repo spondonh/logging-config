@@ -51,3 +51,19 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contributing
 I mostly use this for personal use, and am a super amateur programmer.  Contributions are welcome, but I'm pretty sure you have better things to do with your time!
+
+## Publishing to PyPI
+This is just a reminder for me on how to publish the changes.
+
+### Build the Package
+Build the package with the updated version.
+
+```bash
+python setup.py sdist bdist_wheel
+```
+### Upload to PyPI
+Upload the new version to PyPI using `twine`.
+
+```bash
+twine upload dist/*
+```
