@@ -22,7 +22,7 @@ pip install logging_config
 To use the logging configuration in your project, import the setup_logging function from the configuration module and call it with the desired log filename.
 
 ```python
-from logging.configuration import setup_logging
+from custom_logging.configuration import setup_logging
 
 # Set up logging with a custom log filename
 setup_logging('my_custom_log')
