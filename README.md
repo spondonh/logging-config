@@ -13,7 +13,7 @@ A simple logging configuration module for Python projects. This package provides
 Install the package using pip:
 
 ```bash
-pip install logging_config
+pip install logging-configuration
 ```
 
 ## Usage
